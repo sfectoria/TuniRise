@@ -1,0 +1,36 @@
+
+.mySwiper {
+    width: 650px;
+    height: 330px;
+  
+  }
+  
+  .swiper-slide {
+    display: flex !important;
+  justify-content: center !important;
+    background-position: center;
+    background-size: cover;
+
+  
+  }
+  
+  .swiper-pagination {
+    margin-top: 40px; /* Adjust this value as needed */
+    position: relative !important; /* Ensure it's in the flow of the document */
+    display: block !important; /* Make sure it's visible */
+    text-align: center; /* Center pagination dots */
+  }
+  
+  .swiper-slide Image {
+    display: block;
+    /* width: 100%; */
+  }
+  
+  .photo{
+    border-top-right-radius: 70px 70px;
+    border-bottom-left-radius: 70px 70px;
+
+  }
+
+
+ 
